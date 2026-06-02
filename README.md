@@ -38,7 +38,7 @@ The system converts **human language commands into structured robot actions usin
 ```bash
 mkdir -p ~/franka_ws/src
 cd ~/franka_ws/src
-git clone <your-repo-url>
+git clone https://github.com/Mugilan-Theroboticist/VLA-Based-7-DOF-ROBOT.git
 ```
 
 ### 2. Install Dependencies
@@ -100,7 +100,7 @@ This node:
 
 ```bash
 ros2 service call /task_command franka_interfaces/srv/TaskCommand \
-"{command: 'pick red object and stack green one'}"
+"{command: ' hello farnka panda pick red object and  green green objcet and place in the bin'}"
 ```
 
 ---
