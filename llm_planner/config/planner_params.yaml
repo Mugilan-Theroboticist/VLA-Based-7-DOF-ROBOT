@@ -1,0 +1,6 @@
+task_planner_node:
+  ros__parameters:
+    llm_provider: "anthropic"
+    llm_model: "claude-sonnet-4-20250514"
+    max_tasks: 10
+    timeout: 120.0
